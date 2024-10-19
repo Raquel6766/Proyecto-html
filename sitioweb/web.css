@@ -1,0 +1,41 @@
+/*clases css del header*/
+header{
+
+}
+
+.header{
+color: greed;
+margin: 'khasc;sabc';
+}
+
+.logo{
+	width: 150px !important;
+}
+
+.botonmenu{
+	background-color: red;
+	color: white;
+	font-size: 50px !important;;
+}
+
+i{
+	/*font-size: 50px !important;*/
+}
+
+label{
+	font-weight: bold;
+}
+
+.botonformulario{
+	font-weight: bold;
+}
+
+
+#contacto{
+	background-color: yellow;
+	padding-top: 50px;
+	margin-bottom: 50px;
+}
+
+
+
