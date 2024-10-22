@@ -1,41 +1,53 @@
-/*clases css del header*/
-header{
+/* Estilos personalizados */
+.hero-section {
+	background-color: white;
+    color: black;
+    height: 100vh; /* Ocupa toda la pantalla del dispositivo */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 
 }
 
-.header{
-color: greed;
-margin: 'khasc;sabc';
+.card-custom {
+    border-radius: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.card img {
+    border-radius: 10px 10px 0 0;
+}
+
+.navbar a {
+    color: #000 !important; /* Enlaces del navbar en negro */
+}
+
+/*.navbar-nav .nav-link:hover {
+    color: #6c5ce7 !important; /* Color al pasar sobre el enlace */
+/*}*/
+
+footer a {
+    color: white !important;
+}
+
+footer a:hover {
+    color: #6c5ce7 !important;
+}
+
+Button{
+	background-color: white;
+	color: #EE3137;
 }
 
 .logo{
-	width: 150px !important;
+	width: 100px !important;
 }
 
 .botonmenu{
-	background-color: red;
-	color: white;
+	background-color: white;
+	color: red;
 	font-size: 50px !important;;
 }
-
-i{
-	/*font-size: 50px !important;*/
-}
-
-label{
-	font-weight: bold;
-}
-
-.botonformulario{
-	font-weight: bold;
-}
-
-
-#contacto{
-	background-color: yellow;
-	padding-top: 50px;
-	margin-bottom: 50px;
-}
-
-
 
