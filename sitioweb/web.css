@@ -1,13 +1,15 @@
 /* Estilos personalizados */
 .hero-section {
-	background-color: white;
-    color: black;
-    height: 100vh; /* Ocupa toda la pantalla del dispositivo */
+    height: 50vh; /* Ocupa toda la pantalla del dispositivo */
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-
+    background-image: url(imagenes/inicio/inicio_estduaintes.webp);
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	padding-top: 50px;
 }
 
 .card-custom {
@@ -23,10 +25,6 @@
 .navbar a {
     color: #000 !important; /* Enlaces del navbar en negro */
 }
-
-/*.navbar-nav .nav-link:hover {
-    color: #6c5ce7 !important; /* Color al pasar sobre el enlace */
-/*}*/
 
 footer a {
     color: white !important;
@@ -51,3 +49,26 @@ Button{
 	font-size: 50px !important;;
 }
 
+#quienes-somos{
+	background-color: #4246C5;
+}
+
+#mision{
+	background-color: #74CFE4;
+}
+
+#vision{
+	background-color: #EDBF47;
+}
+
+.matricula{
+	background-color: #8BC585;
+}
+
+.Docentes{
+	background-color: #C59C85;
+}
+
+.aula-tic{
+	background-color: #9A85C5;
+}
