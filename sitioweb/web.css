@@ -72,3 +72,34 @@ Button{
 .aula-tic{
 	background-color: #9A85C5;
 }
+
+.btenviar{
+	background-color: red;
+}
+
+/* Estilo general del contenedor */
+.container {
+    max-width: 1200px; /* Ancho máximo */
+    margin: 0 auto; /* Centrado */
+}
+
+/* Sección de misión y visión */
+.custom-text-section {
+    padding: 20px; /* Espaciado interno */
+}
+
+/* Estilo para la imagen personalizada */
+.custom-img-container {
+    overflow: hidden; /* Evita desbordamientos */
+}
+
+.custom-img {
+    object-fit: cover; /* Mantiene la relación de aspecto */
+    height: 100%; /* Hace que la imagen ocupe el alto del contenedor */
+}
+
+/* Espaciado entre filas */
+.custom-row {
+    margin-bottom: 20px; /* Espaciado entre filas */
+}
+
