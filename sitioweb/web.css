@@ -1,21 +1,89 @@
-/* Estilos personalizados */
 .hero-section {
-    height: 50vh; /* Ocupa toda la pantalla del dispositivo */
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     text-align: center;
-    background-image: url(imagenes/inicio/inicio_estduaintes.webp);
-	background-size: cover;
-	background-position: center;
-	width: 100%;
-	padding-top: 50px;
+    height: 100vh; /* Ocupa toda la pantalla */
+    background-image: url('imagenes/inicio/inicio_estduaintes.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff; /* Cambia el color del texto a blanco para mayor contraste */
 }
 
-.card-custom {
-    border-radius: 10px;
-    margin-bottom: 30px;
-    text-align: center;
+.bienvenido-texto {
+    font-size: 1.5rem;
+    color: #000;
+    margin: 0;
+}
+
+.colegio-nombre {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #000;
+    margin: 0;
+}
+
+.eslogan {
+    font-size: 1.2rem;
+    color: #000;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.lineas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.linea-gris {
+    width: 80px;
+    height: 30px;
+    background-color: #888;
+}
+
+.linea-amarilla {
+    width: 80px;
+    height: 30px;
+    background-color: #FFD700;
+}
+
+/* Estilos responsivos para pantallas pequeñas */
+@media (max-width: 600px) {
+    .lineas {
+        flex-direction: column; /* Coloca las líneas en una columna en pantallas pequeñas */
+        gap: 3px; /* Ajusta el espacio entre las líneas */
+    }
+}
+
+header{
+  position: fixed;   /* Fija el header en su posición */
+  top: 0;            /* Mantiene el header pegado a la parte superior */
+  left: 0;           /* Alinea el header al borde izquierdo */
+  width: 100%;       /* Ocupa todo el ancho de la pantalla */
+  z-index: 1000;     /* Coloca el header por encima de otros elementos */
+  background-color: #ffffff; /* Color de fondo del header */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Opcional: sombra para distinguirlo */
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+}
+
+body h2{
+	font-weight: 900;
+}
+body h3{
+	font-weight: 900;
+}
+
+.imagen-borde{
+	width: 300px;
 }
 
 .card img {
@@ -51,6 +119,8 @@ Button{
 
 #quienes-somos{
 	background-color: #4246C5;
+	position: relative;
+    z-index: 1;  /* Asegura que el contenido de la sección esté por encima de la imagen */
 }
 
 #mision{
@@ -59,6 +129,10 @@ Button{
 
 #vision{
 	background-color: #EDBF47;
+}
+
+#promesa{
+	background-color: #C589CF;
 }
 
 .matricula{
@@ -78,9 +152,8 @@ Button{
 }
 
 /* Estilo general del contenedor */
-.container {
-    max-width: 1200px; /* Ancho máximo */
-    margin: 0 auto; /* Centrado */
+.contenedor {
+    max-width: 3000px; /* Ancho máximo */
 }
 
 /* Sección de misión y visión */
@@ -101,5 +174,7 @@ Button{
 /* Espaciado entre filas */
 .custom-row {
     margin-bottom: 20px; /* Espaciado entre filas */
+    margin: 0 auto;
 }
+
 
