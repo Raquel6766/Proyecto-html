@@ -11,7 +11,7 @@
 </head>
 <body>
   <header>
-    <div class="container contenedor">
+    <div class="container">
       <div class="row">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
           <div class="container-fluid">
@@ -48,6 +48,10 @@
                 </li>
 
                 <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#Noticias">Noticias</a>
+                </li>
+
+                <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="#contacto">Contactanos</a>
                 </li>
               </ul>
@@ -63,24 +67,26 @@
     <div class="container text-center">
         <p class="bienvenido-texto">BIENVENIDO</p>
         <h1 class="colegio-nombre">COLEGIO BELLO HORIZONTE</h1>
-        <p class="eslogan">Ser tu mejor tú es tu destino.</p>
+        <p class="eslogan">Ser tu mejor tú es tú destino.</p>
         <div class="lineas">
             <span class="linea-gris"></span>
             <span class="linea-amarilla"></span>
         </div>
+    </div>
+    <div class="wave">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#4246C5" fill-opacity="1" d="M0,160L48,176C96,192,192,224,288,240C384,256,480,256,576,213.3C672,171,768,85,864,48C960,11,1056,21,1152,37.3C1248,53,1344,75,1392,85.3L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+        </svg>      
     </div>
 </section>
 
 
 <!-- Sección ¿Quiénes somos? -->
 <section id="quienes-somos" class="py-5">
-    <div class="container contenedor">
+    <div class="container">
         <h2 class="text-center mb-4 text-white">¿Quiénes somos?</h2>
         <div class="row">
-            <div class="col-lg-4 col-md-12">
-                <img src="imagenes/quienes_somos/quienes_somos_niña.webp" class="imagen-borde">
-            </div>
-            <div class="col-lg-8 col-md-12 text-white text-center">
+            <div class="col-lg-12 col-md-12 text-white text-center">
                 <p>Nuestro propósito es ayudar a familias de niños con capacidades diferentes lograr una integración social efectiva a través de programas de intervención personalizados. Es por ello que en CIE velamos por el desarrollo profesional de nuestros colaboradores. Al inicio de su carrera en CIE, reciben una capacitación inicial de tres meses, en los cuales adquieren las habilidades necesarias para brindar servicios terapéuticos apegados a los más altos estándares de calidad.
                 
                 Sumado a esto, nuestro staff clínico se mantiene constantemente actualizado en procesos de capacitación interna y externa, brindados por profesionales de gran reconocimiento en el campo de la intervención para niños.</p>
@@ -122,7 +128,7 @@
         <section id="promesa" class="col-md-6 col-lg-4 d-flex align-items-center justify-content-center custom-text-section vision-bg">
             <div class="text-center px-3">
                 <h2 class="mb-4">Nuestra Promesa</h2>
-                <p>Bello Horizonte suele centrarse en formar personas integrales, con un enfoque en valores, educación de calidad y el desarrollo de habilidades que les permitan enfrentar los desafíos del futuro. Generalmente, buscan promover un ambiente de aprendizaje inclusivo y motivador.</p>
+                <p>En Bello Horizonte, ofrecemos una educación integral y de calidad en un ambiente inclusivo y respetuoso. Formamos personas responsables y creativas, preparadas para enfrentar los retos del futuro, apoyando su desarrollo académico, emocional y social.</p>
             </div>
         </section>
     </div>
@@ -140,7 +146,7 @@
                     <img src="imagenes/Servicios/servicio_matricula.webp" class="card-img-top">
                     <div class="card-body">
                         <h3 class="card-title">Matrícula</h3>
-                        <p class="card-text">Descripción breve del servicio de matrícula...</p>
+                        <p class="card-text">Contamos con servicio de matrícula</p>
                     </div>
                 </div>
             </div>
@@ -149,7 +155,7 @@
                     <img src="imagenes/Servicios/servicio_docente.webp" class="card-img-top">
                     <div class="card-body">
                         <h3 class="card-title">Doncentes inclusivos</h3>
-                        <p class="card-text">Descripción breve del servicio de docentes...</p>
+                        <p class="card-text">Tenemos docentes expertos en temas de inclusión...</p>
                     </div>
                 </div>
             </div>
@@ -158,7 +164,7 @@
                     <img src="imagenes/Servicios/servicio_tic.webp" class="card-img-top">
                     <div class="card-body">
                         <h3 class="card-title">Aula TIC</h3>
-                        <p class="card-text">Descripción breve del servicio de tic...</p>
+                        <p class="card-text">Contamos con Aulas TIC para el desarrollo de habilidades...</p>
                     </div>
                 </div>
             </div>
@@ -166,7 +172,7 @@
     </div>
 </section>
 
-<section>
+<section id="Noticias">
   <div class="container-fluid">
     <h2 class="text-center mb-4">Noticias</h2>
     <div id="carouselExampleCaptions" class="carousel slide">
@@ -177,6 +183,7 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
+            <div class="overlow"></div>
           <img src="imagenes/Noticias/noticia_TIC.webp" class="d-block w-100">
           <div class="carousel-caption d-none d-md-block d-sm-block d-none">
             <h2>Aulas TIC</h2>
@@ -184,6 +191,7 @@
           </div>
         </div>
         <div class="carousel-item">
+            <div class="overlow"></div>
           <img src="imagenes/Noticias/noticia_salon.webp" class="d-block w-100">
           <div class="carousel-caption d-none d-md-block d-sm-block d-none">
             <h2>Salones inclusivos</h2>
@@ -191,6 +199,7 @@
           </div>
         </div>
         <div class="carousel-item">
+            <div class="overlow"></div>
           <img src="imagenes/Noticias/noticia_reciclaje.webp" class="d-block w-100">
           <div class="carousel-caption d-none d-md-block d-sm-block d-none">
             <h2>Ayudamos a reciclar</h2>
@@ -227,7 +236,7 @@
                 <label for="mensaje" class="form-label">Mensaje</label>
                 <textarea class="form-control" id="mensaje" rows="3" placeholder="Escribe tu mensaje"></textarea>
             </div>
-            <button type="submit" class="btn btn-primary w-100 btenviar">Enviar</button>
+            <button type="submit" class="btn btn-primary btn-lg w-100 btenviar">Enviar</button>
         </form>
     </div>
 </section>
@@ -242,6 +251,24 @@
         </div>
     </div>
 </footer>
+
+<script>
+  // Selecciona todos los enlaces dentro del menú de navegación
+  const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+  const navbarCollapse = document.querySelector('.navbar-collapse');
+
+  // Añade un evento de clic a cada enlace
+  navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      // Verifica si el menú está expandido y lo cierra
+      if (navbarCollapse.classList.contains('show')) {
+        const navbarToggler = document.querySelector('.navbar-toggler');
+        navbarToggler.click(); // Simula un clic en el botón del menú
+      }
+    });
+  });
+</script>
+
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>

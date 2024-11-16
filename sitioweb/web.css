@@ -73,6 +73,8 @@ header{
 body {
   font-family: 'Inter', sans-serif;
   font-size: 20px;
+  margin: 0;
+  padding: 0;
 }
 
 body h2{
@@ -148,13 +150,10 @@ Button{
 }
 
 .btenviar{
-	background-color: red;
+	background-color: #643D2E;
+	border: none;
 }
 
-/* Estilo general del contenedor */
-.contenedor {
-    max-width: 3000px; /* Ancho máximo */
-}
 
 /* Sección de misión y visión */
 .custom-text-section {
@@ -177,4 +176,19 @@ Button{
     margin: 0 auto;
 }
 
+.overlow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 255, 0.5); /* Azul con opacidad del 50% */
+    pointer-events: none; /* Para que los clics pasen a través del overlay */
+    opacity: 50%;
+}
 
+.wave{
+	position: absolute;
+	width: 100%;
+	bottom: -10px;
+}
